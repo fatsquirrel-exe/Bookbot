@@ -19,7 +19,7 @@ def main():
         name = dictionary["name"]
         num = dictionary["num"]
         if name.isalpha():
-            print(f"The {name} character was found {num} times")
+            print(f"The '{name}' character was found {num} times")
     print("")
     print("--- End Report ---")
 
